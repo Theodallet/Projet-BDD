@@ -1,0 +1,15 @@
+create user 'Tom'@'localhost'identified by '1234';
+grant select on projetbdd.agencies to 'Tom'@'localhost';
+grant select on projetbdd.cities to 'Tom'@'localhost';
+grant select on projetbdd.collect to 'Tom'@'localhost';
+grant select on projetbdd.contain to 'Tom'@'localhost';
+grant select on projetbdd.gases to 'Tom'@'localhost';
+grant select on projetbdd.manage to 'Tom'@'localhost';
+grant select on projetbdd.measure to 'Tom'@'localhost';
+grant select on projetbdd.personal to 'Tom'@'localhost';
+grant select on projetbdd.region to 'Tom'@'localhost';
+grant select on projetbdd.reports to 'Tom'@'localhost';
+grant select on projetbdd.sensors to 'Tom'@'localhost';
+grant select on projetbdd.task to 'Tom'@'localhost';
+grant select on projetbdd.writes to 'Tom'@'localhost';
+flush privileges;
